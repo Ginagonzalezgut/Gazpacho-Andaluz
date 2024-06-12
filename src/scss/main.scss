@@ -1,0 +1,59 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
+@font-face {
+    font-family: "Mi fuente";
+    src: url("assets/FicheroFuente.woff");
+  }
+  
+  :root {
+    --font-size-for-paragraph: 16px;
+    --font-family-principal: arial;
+    --brand-color: green;
+  }
+  
+  body {
+    background-color: #f3f4f5;
+  }
+  
+  h1 {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0;
+    color: var(--brand-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 50%;
+  }
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #757575;
+    text-align: justify;
+  }
+  div {
+    background-color: rgb(213, 141, 48);
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    padding: 10px;
+    border: 5px dotted purple;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ol {
+    width: 200px;
+    margin: auto;
+  }
+  .contenido {
+    max-width: 960px;
+    margin: auto;
+  }
